@@ -1,0 +1,32 @@
+ion-content {
+  --background: var(--ion-color-secondary);
+}
+
+.heading {
+  margin-top: 10vh;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  h1 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bolder;
+  }
+  p {
+    color: #ffffff;
+  }
+}
+.image {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.signin {
+  margin-top: 12vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  ion-button {
+    width: 80%;
+  }
+}
