@@ -1,5 +1,5 @@
 <ion-header class="ion-no-border">
-  <ion-toolbar color="primary" no-border>
+  <ion-toolbar color="secondary" no-border>
     <div class="toolbar-content">
       <div class="home-icon">
         <ion-icon class="icon" color="light" name="log-out-outline"></ion-icon>
@@ -15,7 +15,7 @@
 
 <ion-content [fullscreen]="true">
   <div class="banner">
-    <img src="../../assets/banner.jpg"/>
+    <img src="../../assets/banner.svg"/>
 
     <div class="caption ion-padding">
       Participe dos <br>
@@ -43,7 +43,7 @@
     <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }" class="default-left-padding">
       <ion-slide>
         <ion-col class="ion-text-left">
-          <ion-card>
+          <ion-card routerLink="/eventcard">
             <ion-card-header class="ion-no-padding">
               <img src="../../assets/events/event1.svg" />
             </ion-card-header>
@@ -51,7 +51,7 @@
             <ion-card-content>
               <p class="date">21 Abril 2022</p>
               <h2 class="eventname">Festival de Jazz Internacional</h2>
-              <p class="location"><ion-icon name="location"></ion-icon>Caracas, Venezuela</p>
+              <p class="location"><ion-icon name="location"></ion-icon>Quebec, Canadá</p>
 
               <div class="additional-info">
                 <div class="attendees">
@@ -74,7 +74,7 @@
       </ion-slide>
       <ion-slide>
         <ion-col class="ion-text-left">
-          <ion-card>
+          <ion-card routerLink="/eventtwo">
             <ion-card-header class="ion-no-padding">
               <img src="../../assets/events/event2.svg" />
             </ion-card-header>

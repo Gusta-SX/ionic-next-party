@@ -22,6 +22,14 @@ const routes: Routes = [
   {
     path: 'welcome',
     loadChildren: () => import('./welcome/welcome.module').then( m => m.WelcomePageModule)
+  },
+  {
+    path: 'eventcard',
+    loadChildren: () => import('./eventcard/eventcard.module').then( m => m.EventcardPageModule)
+  },
+  {
+    path: 'eventtwo',
+    loadChildren: () => import('./eventtwo/eventtwo.module').then( m => m.EventtwoPageModule)
   }
 ];
 
